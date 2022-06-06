@@ -1,0 +1,55 @@
+{
+  "name": "library",
+  "version": "0.0.0",
+  "main": ".public/index.js",
+  "repository": {
+    "url": "git@github.com:ishop-africa/iauth.git",
+    "type": "git",
+    "version": "npm version patch -m 'Upgrade to %s for reasons'"
+  },
+  "keywords": [
+    "ishop Africa",
+    "e-commerce",
+    "prisma",
+    "mysql",
+    "sdk",
+    "typescript",
+    "africa",
+    "shoping",
+    "shopping carts",
+    "api",
+    "nodejs api",
+    "shop africa"
+  ],
+  "author": "Mitch Chanza <mitch.chanza@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://sdk.ishop.africa/iauth ",
+  "types": ".public/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "files": [
+    "/.public"
+  ],
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "devDependencies": {
+    "@jest/types": "^28.1.0",
+    "@types/jest": "^28.1.1",
+    "@types/node": "^17.0.40",
+    "ts-node": "^10.8.1",
+    "@types/typescript": "^2.0.0",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.4",
+    "typescript": "^4.7.3"
+  },
+  "packageManager": "yarn@1.22.19",
+  "yarn": {
+    "args": [
+      "ignore-engines"
+    ]
+  }
+ 
+}
