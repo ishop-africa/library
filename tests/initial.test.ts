@@ -1,6 +1,6 @@
-import { SampleService } from '../ishop';
+import { sampleService } from '../ishop';
 
 test("greet John", () => {
-    const g = new SampleService().greet('mitch');
+    const g = sampleService.greet('mitch');
     expect(g).toBe('Hello mitch')
 })

@@ -1,9 +1,11 @@
 import { ISampleDto } from "../dto";
 
-export class SampleService implements ISampleDto {
+ class SampleService implements ISampleDto {
     constructor(){}
     greet(name: string): string {
         return `Hello ${name}`
     }
 
 }
+
+export const sampleService = new SampleService()

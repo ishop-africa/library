@@ -1,4 +1,4 @@
-export { SampleService } from "./core/sample-service-dto"
+export { sampleService } from "./core/sample-service-dto"
 
 
 
