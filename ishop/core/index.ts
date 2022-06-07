@@ -1,1 +1,1 @@
-export * from './iacrypto.service'
+export * from './sample-service-dto'
