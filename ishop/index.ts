@@ -1,10 +1,5 @@
-import { IaCryptoService } from "./core"
+export { SampleService } from "./core/sample-service-dto"
 
-/**
- * IMPLEMENT YOUR CODE HERE
- */
-export const icrypt = (): IaCryptoService => {
-  return new IaCryptoService()
-}
 
-export default {icrypt}
+
+

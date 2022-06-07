@@ -1,1 +1,1 @@
-export * from "./randomizer-dto"
+export * from "./sampler-interface-dto"
