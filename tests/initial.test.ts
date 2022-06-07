@@ -1,5 +1,8 @@
 
 import { icrypt } from '../ishop';
+console.log('numeric',icrypt().random('numeric', 12))
+console.log('alphanumeric:',icrypt().random('alphanumeric', 12))
+console.log('uuid',icrypt().random('uuid'))
 
 test('Shoud generate a random characters, integers or uuid', () => {
     const init = 'Welcome to ishop.africa crypto service'
