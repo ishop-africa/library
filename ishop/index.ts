@@ -1,9 +1,10 @@
+import { IaCryptoService } from "./core"
+
 /**
  * IMPLEMENT YOUR CODE HERE
  */
-
-export const testingLib = (name: string): string => {
-  return `Hello ${name}`
+export const icrypt = (): IaCryptoService => {
+  return new IaCryptoService()
 }
 
-export default {testingLib}
+export default {icrypt}

@@ -1,33 +1,28 @@
 {
-  "name": "library",
+  "name": "iacrypt",
   "version": "0.0.0",
   "main": ".public/index.js",
   "repository": {
-    "url": "git@github.com:ishop-africa/iauth.git",
-    "type": "git",
-    "version": "npm version patch -m 'Upgrade to %s for reasons'"
+    "url": "git@github.com:ishop.africa/iacrypt.git",
+    "type": "git"
   },
   "keywords": [
     "ishop Africa",
     "e-commerce",
-    "prisma",
-    "mysql",
-    "sdk",
-    "typescript",
-    "africa",
-    "shoping",
-    "shopping carts",
-    "api",
-    "nodejs api",
+    "crypto",
+    "secure",
+    "security",
+    "updates",
     "shop africa"
   ],
   "author": "Mitch Chanza <mitch.chanza@gmail.com>",
   "license": "MIT",
-  "homepage": "https://sdk.ishop.africa/iauth ",
+  "homepage": "https://sdk.ishop.africa/iacrypt ",
   "types": ".public/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest --coverage",
+    "version": "npm version patch -m 'Upgrade to %s for reasons'"
   },
   "files": [
     "/.public"
@@ -51,5 +46,4 @@
       "ignore-engines"
     ]
   }
- 
 }
